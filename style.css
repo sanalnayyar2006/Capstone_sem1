@@ -5,5 +5,26 @@
     top: -1477px;
     left: -148px;
     padding: 0px 48px 0px 48px;
+    gap: 0px; 
+}
+.header{
+    width:1,344px;
+    height:88px;
+    padding: 20px 0px 20px 0px;
     gap: 0px;
+    border: 0px 0px 1.5px 0px;
+    justify-content: space-between;
+    color: #FDFEFB;
+}
+#logo{
+    width: 186px;
+    height: 28px;
+    gap: 0px;
+    opacity: 0px;
+    font-family:Serif 4;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+    text-align: left;
 }
