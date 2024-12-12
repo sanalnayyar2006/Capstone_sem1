@@ -80,3 +80,9 @@ body {
     letter-spacing: -0.02em;
     text-align: left;
 }
+#container{
+    width:1,344px;
+    height: 3,633px;
+    padding: 48px 0px 48px 0px;
+    gap: 0px;
+}
