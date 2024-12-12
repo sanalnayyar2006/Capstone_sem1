@@ -2,11 +2,12 @@ body {
     padding-right: 48px;
     padding-left: 48px;
     background-color: #FDFEFB;
+    margin: 0;
 }
 
 .header{
     height:88px;
-    padding: 20px 0px 20px 0px;
+    padding: 0px 0px 20px 0px;
     gap: 0px;
     border: 0px 0px 1.5px 0px;
     justify-content: space-between;
@@ -99,4 +100,24 @@ body {
     gap: 52px;
     border: 0px 0px 1.5px 0px;
     opacity: 0px;
+}
+.discover{
+    width: 1344px;
+    height: 120px;
+    gap: 0px;
+    opacity: 0px;    
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+#img1{
+    width: 1344px;
+    height: 672px;
+    gap: 0px;
+    border-radius: 28px 0px 0px 0px;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px;
+
 }
