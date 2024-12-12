@@ -86,3 +86,10 @@ body {
     padding: 48px 0px 48px 0px;
     gap: 0px;
 }
+#main-content{
+    width:1,344px;
+    height: 3,537px;
+    gap: 0px;
+    opacity: 0px;
+
+}
