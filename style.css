@@ -94,12 +94,13 @@ body {
     opacity: 0px;
 }
 #landingpage{
-    width:1,344px;
+    width: 1,344px;
     height:1,036px;
-    padding: 96px 0px 96px 0px;
     gap: 52px;
     border: 0px 0px 1.5px 0px;
     opacity: 0px;
+    top: 96px;
+    bottom: 96px;
 }
 .discover{
     width: 1344px;
@@ -108,7 +109,6 @@ body {
     opacity: 0px;    
     font-size: 120px;
     font-weight: 700;
-    line-height: 120px;
     letter-spacing: -0.02em;
     text-align: center;
 }
@@ -116,8 +116,7 @@ body {
     width: 1344px;
     height: 672px;
     gap: 0px;
-    border-radius: 28px 0px 0px 0px;
-    border: 1.5px 0px 0px 0px;
+    border-radius: 28px;
+    border: 1.5px;
     opacity: 0px;
-
 }
