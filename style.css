@@ -1,30 +1,82 @@
-.parent{
-    width:1,440px;
-    height: 3,901px;
-    min-height: 900px;
-    top: -1477px;
-    left: -148px;
-    padding: 0px 48px 0px 48px;
-    gap: 0px; 
+body {
+    padding-right: 48px;
+    padding-left: 48px;
+    background-color: #FDFEFB;
 }
+
 .header{
-    width:1,344px;
     height:88px;
     padding: 20px 0px 20px 0px;
     gap: 0px;
     border: 0px 0px 1.5px 0px;
     justify-content: space-between;
-    color: #FDFEFB;
+    align-items: center;
+    display: flex;
+}
+.apptype{
+    width:50%;
+    height:48px;
+    gap: 12px;
+    opacity: 0px;
+    text-align: left;
+}
+
+.links {
+    width:50%;
+    width: 491px;
+    height: 32px;
+    gap: 40px;
+    opacity: 0px;
+    display: flex;
 }
 #logo{
-    width: 186px;
-    height: 28px;
-    gap: 0px;
-    opacity: 0px;
     font-family:Serif 4;
     font-size: 42px;
     font-weight: 600;
     line-height: 42px;
     letter-spacing: -0.04em;
+    text-align: left;
+    color: blue;
+}
+#home{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    width: 80px;
+    height: 32px;
+}
+#projects{
+    width: 106px;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+#about{
+    width: 81px;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto Serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+#contact{
+    width: 104px;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.02em;
     text-align: left;
 }
