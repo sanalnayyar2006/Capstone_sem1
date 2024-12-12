@@ -91,5 +91,12 @@ body {
     height: 3,537px;
     gap: 0px;
     opacity: 0px;
-
+}
+#landingpage{
+    width:1,344px;
+    height:1,036px;
+    padding: 96px 0px 96px 0px;
+    gap: 52px;
+    border: 0px 0px 1.5px 0px;
+    opacity: 0px;
 }
