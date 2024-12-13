@@ -4,7 +4,13 @@ body {
     background-color: #FDFEFB;
     margin: 0;
 }
-
+#parent{
+    width:1,440px;
+    height:3,901px;
+    min-height: 900px;
+    padding: 0px 48px 0px 48px;
+    gap: 0px;
+}
 .header{
     height:88px;
     padding: 0px 0px 20px 0px;
@@ -112,7 +118,7 @@ body {
     letter-spacing: -0.02em;
     text-align: center;
 }
-#img1{
+#img{
     width: 1344px;
     height: 672px;
     gap: 0px;
@@ -121,28 +127,24 @@ body {
     opacity: 0px;
 }
 #sections{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     width: 1,344px;
     height: 1,036px;
     padding: 96px 0px 96px 0px;
     gap: 52px;
-    border: 0px 0px 1.5px 0px;
     opacity: 0px;
 }
-#row1{
+#column1{
     width: 413.33px;
     height: 1,245px;
     gap: 52px;
-    opacity: 0px;
-    display: flex;
-}
+} 
 #project1{
         width: 416px;
         height:379px;
         opacity: 0px;
 }
-#img2{
+#img1{
 width: 416px;
 height: 321px;
 gap: 0px;
@@ -150,7 +152,7 @@ border-radius: 16px;
 border: 1.5px 0px 0px 0px;
 opacity: 0px;
 }
-#img2txt{
+#img1txt{
     width: 416px;
     height: 48px;
     gap: 0px;
@@ -176,23 +178,21 @@ opacity: 0px;
 }
 #project2{
     width:416px;
-    height:472px;
+    height:290px;
     gap: 10px;
     opacity: 0px;
 }
-#img3{
+#img2{
     width: 416px;
-    height: 414px;
+    height: 232px;
     gap: 0px;
     border-radius: 16px;
-    border: 1.5px 0px 0px 0px;
-    opacity: 0px;
 }
-#img3txt{
+#img2txt{
     width:416px;
     height:48px;
     gap: 0px;
-    opacity: 0px;    
+    opacity: 0px;
 }
 #head2{
     width: 416px;
@@ -206,15 +206,81 @@ opacity: 0px;
     text-align: left;
 }
 #small2{
-    font-family: Public Sans;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: -0.005em;
-    text-align: left;
     width: 416px;
     height: 24px;
     gap: 0px;
     opacity: 0px;
-    
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;    
+}
+
+#project3{
+    width:416px;
+    height:472px;
+    gap: 10px;
+    opacity: 0px;
+    width: 416px;
+    height: 414px;
+    gap: 0px;
+    border-radius: 16px;    
+}
+#img3{
+    width: 416px;
+    height: 414px;
+    gap: 0px;
+    border-radius: 16px;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px
+}
+
+#img3txt{
+    width:416px;
+    height:48px;
+    gap: 0px;
+    opacity: 0px;
+}
+#head3{
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+}
+#small3{
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;    
+}
+.about{
+    width: auto;
+    height: auto;
+    background-color: #fdfefb;
+    justify-content: center;
+    align-items: start;
+    display: flex;
+    padding: 96px 0px 96px 0px;
+}
+#aboutsite{
+    width: 900px;
+    height: 260px;
+    gap: 0px;
+    max-width: 900px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    text-align:center;
 }
