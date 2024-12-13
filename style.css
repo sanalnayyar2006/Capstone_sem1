@@ -207,7 +207,7 @@ body {
 .about{
     width:1344px;
     height:452px;
-    padding: 96px 0px;
+    padding: 0px;
     margin: 0;
     gap: 0px;
     opacity: 0px;
@@ -226,4 +226,12 @@ body {
     letter-spacing: -0.02em;
     text-align: center;
     color: #23281B;
+}
+.rating{
+    width:1,344px;
+    height:700px;
+    min-height: 700px;
+    padding: 200px 0px 0px 0px;
+    gap: 52px;
+    opacity: 0px;
 }
