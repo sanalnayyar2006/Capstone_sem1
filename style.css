@@ -139,7 +139,6 @@ body {
 #project1{
         width: 416px;
         height:379px;
-        gap: 10px;
         opacity: 0px;
 }
 #img2{
@@ -149,5 +148,28 @@ gap: 0px;
 border-radius: 16px;
 border: 1.5px 0px 0px 0px;
 opacity: 0px;
-
+}
+#img2txt{
+    width: 416px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+}
+#head1{
+    width: 416px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+}
+#small1{
+    width: 416px;
+    height: 24px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
 }
