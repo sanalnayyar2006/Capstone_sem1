@@ -135,6 +135,7 @@ body {
     height: 1,245px;
     gap: 52px;
     opacity: 0px;
+    display: flex;
 }
 #project1{
         width: 416px;
@@ -172,4 +173,48 @@ opacity: 0px;
     line-height: 24px;
     letter-spacing: -0.005em;
     text-align: left;
+}
+#project2{
+    width:416px;
+    height:472px;
+    gap: 10px;
+    opacity: 0px;
+}
+#img3{
+    width: 416px;
+    height: 414px;
+    gap: 0px;
+    border-radius: 16px;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px;
+}
+#img3txt{
+    width:416px;
+    height:48px;
+    gap: 0px;
+    opacity: 0px;    
+}
+#head2{
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+}
+#small2{
+    font-family: Public Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    
 }
