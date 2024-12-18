@@ -240,3 +240,53 @@ body {
     justify-content: center;
     align-items: center;
 }
+.textT{
+    gap:8px;
+    color: #D6DDE6;
+    text-align: center;
+    justify-content: space-between;
+}
+.TextU{
+    font-size: 28px;
+    line-height: 32px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.TextL{
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+}
+.inputNum{
+    overflow: hidden;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    border-radius: 8px; 
+    background-color: #FFFFFF0A; 
+    border: 1.5px solid #FFFFFF33;
+    width: 60px;
+}
+.inputNum input[type="number"]{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color: #D6DDE666;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 8px 16px;
+    width: 13px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6.5px;
+}
+.eight-input{
+    display: flex;
+    gap: 12px;
+    padding: 40px 0px;
+}
