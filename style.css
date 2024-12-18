@@ -288,3 +288,13 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     gap: 12px;
     padding: 40px 0px;
 }
+#pagelinks{
+    font-family: Roboto Serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: rgba(38, 46, 20, 0.62);
+}
