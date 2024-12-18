@@ -242,7 +242,7 @@ body {
 }
 .textT{
     gap:8px;
-    color: #D6DDE6;
+    color: black;
     text-align: center;
     justify-content: space-between;
 }
@@ -252,11 +252,6 @@ body {
     align-items: center;
     margin-bottom: 10px;
 }
-.TextL{
-    font-size: 15px;
-    line-height: 20px;
-    align-items: center;
-}
 .inputNum{
     overflow: hidden;
     display: flex;
@@ -265,8 +260,7 @@ body {
     justify-content: center;
     height: 64px;
     border-radius: 8px; 
-    background-color: #FFFFFF0A; 
-    border: 1.5px solid #FFFFFF33;
+    background-color:rgba(97, 126, 37, 0.09); 
     width: 60px;
 }
 .inputNum input[type="number"]{
@@ -285,6 +279,10 @@ body {
     align-items: center;
     margin: 6.5px;
 }
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
 .eight-input{
     display: flex;
     gap: 12px;
