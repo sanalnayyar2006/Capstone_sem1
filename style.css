@@ -231,7 +231,23 @@ body {
     width:1,344px;
     height:700px;
     min-height: 700px;
-    padding: 200px 0px 0px 0px;
     gap: 52px;
     opacity: 0px;
+}
+.rate{
+    width: 400px;
+    height:276px;
+    margin: 0 auto;
+}
+.Contact{
+    width: 100%;
+    text-align: center;
+}
+.contact{
+    font-family: Roboto Serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
 }
