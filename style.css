@@ -6,7 +6,7 @@ body {
     background-color: #FDFEFB;
     margin: 0;
 }
-.logo{
+#logo{
     width: 186px;
     height: 28px;
     gap: 0px;
@@ -16,6 +16,10 @@ body {
     line-height: 42px;
     letter-spacing: -0.04em;
     text-align: left;    
+    color: rgba(35, 40, 27, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #parent{
     width:1,440px;
@@ -36,7 +40,7 @@ body {
 .apptype{
     width:50%;
     height:48px;
-    gap: 12px;
+    /* gap: 12px; */
     opacity: 0px;
     text-align: left;
 }
@@ -57,7 +61,7 @@ body {
     line-height: 42px;
     letter-spacing: -0.04em;
     text-align: left;
-    color: blue;
+
 }
 #home{
     font-size: 28px;
@@ -227,27 +231,12 @@ body {
     text-align: center;
     color: #23281B;
 }
-.rating{
-    width:1,344px;
-    height:700px;
+.numb{
+    padding-top: 200px;
+    gap:48px;
     min-height: 700px;
-    gap: 52px;
-    opacity: 0px;
-}
-.rate{
-    width: 400px;
-    height:276px;
-    margin: 0 auto;
-}
-.Contact{
-    width: 100%;
-    text-align: center;
-}
-.contact{
-    font-family: Roboto Serif;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 32px;
-    letter-spacing: -0.02em;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
