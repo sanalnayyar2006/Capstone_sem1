@@ -312,11 +312,14 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     padding: 96px 0px 32px 0px;
     gap: 32px;
     border: 1.5px 0px 0px 0px;
+    
 }
 .footcontainer{
     gap: 0px;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+
 }
 #pagelinks{
     font-family: Roboto Serif;
@@ -333,14 +336,13 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     border-radius: 16px;
     width:160px;
     height: 52px;
-    padding: 0px 0px;
-    text-align: center;
+    padding: 1px 1px 1px 1px;
 }
 #footfollow{
     font-size: 20px;
     font-weight: 500;
-    text-align: center;
-
+    text-align:center;
+    padding: 0px 0px 4px 0px;
 }
 .button{
     cursor: pointer;
@@ -373,9 +375,10 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     .links {
         display: flex;
         margin-top: 50px;
-        margin-left: auto;
+        margin-left: 10px;
         margin-right: auto;
         font-size: 18px;
+        width: 100%;
     }
 
     #landing-page {
@@ -396,7 +399,8 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
         display: flex;
         flex-direction: column;
         margin-left: 50px;
-        margin-right: auto;
+        margin-right: auto; 
+        width: 100%;
     }
     .about {
         /* margin-left: 10px;
@@ -407,10 +411,12 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
     #aboutsite {
         padding: 20px;
-        /* width: 50vh; */
+        width: 80vh;
         padding: 0;
         font-size: 28px;
-        text-align: left;
+        text-align: center;
+        margin-left: 50px;
+
     }
     .numb {
         margin-left: 100px;
@@ -420,6 +426,22 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
         display: flex;
         flex-direction: column;
     }
+    #numb{
+        display: flex;
+        justify-content: center;
+        
+        align-items: center;
+        margin-left: 80px;
+        margin-right: auto;
+    }
+    .footer{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 
 }
 .project1 img:hover{
