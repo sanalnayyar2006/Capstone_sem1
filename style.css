@@ -324,3 +324,28 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     font-size: 20px;
     font-weight: 500;
 }
+@media (max-width: 768px){
+    #logo{
+        font-size: 28px;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .links{
+        justify-content: center;
+    }
+    .discover{
+        font-size: 36px;
+    }
+    #sections{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .column1,.column2,.column3{
+        width: 100%;
+    }
+    @media (max-width: 48px){
+        body{
+            padding: 8px;
+        }
+    }
